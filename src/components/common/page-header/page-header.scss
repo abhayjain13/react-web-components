@@ -1,0 +1,85 @@
+@import "../../../commonStyles/color.scss";
+
+.hamburger,
+.titleBar {
+  display: flex;
+}
+
+.hamburger {
+  justify-content: space-between;
+  align-items: flex-start;
+
+  img {
+    height: 18px;
+    width: auto;
+  }
+
+  .user {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 70px;
+      height: auto;
+    }
+
+    .userInfo {
+      font-weight: 400;
+      font-size: 12px;
+      color: $subTextCol;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 15px;
+
+      span {
+        font-weight: 600;
+        font-size: 16px;
+        color: $White;
+      }
+
+      img {
+        width: 16px;
+        margin-left: 6px;
+      }
+    }
+
+    .verified {
+      border: 1px solid $White;
+      border-radius: 5px;
+      padding: 5px 8px;
+      font-size: 10px;
+      font-weight: 500;
+      color: $White;
+      margin-top: 10px;
+
+      img {
+        margin-left: 10px;
+        height: 10px;
+        width: auto;
+      }
+    }
+  }
+}
+
+.titleBar {
+  align-items: center;
+  justify-content: space-between;
+
+  img {
+    height: 20px;
+    width: auto;
+  }
+
+  .left {
+    display: flex;
+    align-items: center;
+
+    h2 {
+      margin-left: 18px;
+      color: $White;
+    }
+  }
+}

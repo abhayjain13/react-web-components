@@ -1,0 +1,32 @@
+@import "../../commonStyles/color.scss";
+
+.addInfo {
+  padding: 24px;
+
+  .inputBox {
+    border: 1px solid $Primary;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    padding: 10px;
+
+    &:last-child {
+      margin: 0;
+    }
+
+    span {
+      color: $Primary;
+      font-weight: 600;
+    }
+
+    input {
+      border: none;
+      margin-top: 5px;
+
+      &::placeholder {
+        color: $subTextCol;
+      }
+    }
+  }
+}

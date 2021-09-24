@@ -1,0 +1,23 @@
+@import '../../commonStyles/color.scss';
+
+.addCustLink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid $Primary;
+  border-radius: 12px;
+  width: 94%;
+  margin: auto;
+  background: $White;
+  padding: 8px 4px;
+
+  input {
+    width: 100%;
+    border: none;
+    background: transparent;
+
+    &::placeholder {
+      color: $Border;
+    }
+  }
+}

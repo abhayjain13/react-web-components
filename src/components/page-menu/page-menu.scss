@@ -1,0 +1,20 @@
+@import "../../commonStyles/color.scss";
+
+.menu {
+  display: flex;
+  align-items: center;
+  border: 1px solid $Primary;
+  width: max-content;
+  margin: 24px auto;
+  border-radius: 12px;
+
+  div {
+    padding: 12px 24px;
+  }
+
+  .selected {
+    background: $Primary;
+    border-radius: 12px;
+    color: $White;
+  }
+}

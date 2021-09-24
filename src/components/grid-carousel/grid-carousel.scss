@@ -1,0 +1,37 @@
+@import "../../commonStyles/color.scss";
+
+.carousel {
+  padding: 24px 0 24px 24px;
+  border-bottom: 1px solid $Border;
+
+  .cardGrid {
+    display: flex;
+    overflow-x: scroll;
+
+    .cardData {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-right: 15px;
+
+      .cardIcon {
+        width: 64px;
+        height: 64px;
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: 50%;
+        }
+      }
+
+      .cardInfo {
+        margin-top: 8px;
+        font-size: 10px;
+        color: $Primary;
+      }
+    }
+  }
+}

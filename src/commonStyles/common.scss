@@ -1,0 +1,101 @@
+@import './font.scss';
+@import './color.scss';
+
+html {
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+iframe {
+  border: 0;
+}
+
+article,
+aside,
+figure,
+footer,
+hgroup,
+section {
+  display: block;
+}
+
+body,
+button,
+input,
+pre,
+select,
+textarea {
+  font-family: 'Poppins', sans-serif;
+}
+
+code,
+pre {
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: auto;
+  line-height: 1.5px;
+}
+
+body {
+  background: $White;
+  color: $Black;
+  height: 100%;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus,
+div[role='button']:focus {
+  outline: none;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+main {
+  padding-bottom: 48px;
+}
+
+.headWrapper {
+  padding: 20px;
+  background: $Primary;
+  border-radius: 0 0 24px 24px;
+}
